@@ -1,0 +1,54 @@
+div#time {
+    display: flex;
+    justify-content: space-around;
+    
+    /* width: 100%; */
+
+}
+
+div#time  span {
+    margin: 0 10px;
+    font-size: 5.5em;
+
+}
+#inputs, #btns {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#inputs input, #btns button {
+    /* padding: 5% 7%; */
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px rgb(245, 98, 98);
+
+}
+body > div {
+    /* margin: 10% 0; */
+    padding: 20px;
+}
+label {
+    text-align: center;
+    font-size: 1.3em
+
+}
+button {
+    cursor: pointer;
+    margin: 10%;
+    padding: 4%;
+
+}
+.outer-bar {
+    margin: 0 auto;
+    width: 80%;
+    height: 2px;
+    /* background: black; */
+}
+.inner-bar {
+    /* margin: 0 auto; */
+    /* width: 10%; */
+    height: 20px;
+    background: red;
+}
